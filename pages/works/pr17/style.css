@@ -1,0 +1,78 @@
+
+.wrapper {
+    width: 1080px;
+    color: white;
+}
+.verh {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+}
+header {
+    background: url("img/141.png");
+}
+.To {
+    margin-left: 25px;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+li{
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.sep {
+    border-bottom: 8px solid rgb(243, 39, 39) ;
+}
+.seredinka {
+    color: black;
+    display: flex;
+    gap: 55px;
+    height: 50px;
+    font-size: 30px;
+    justify-content: center;
+    background: rgb(228, 227, 227);
+    margin-top: 10px;
+}
+.dve {
+    background: rgb(250, 2, 43);
+    color: white;
+}
+.vosem {
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    margin-left: 25px;
+}
+.vosem p {
+    font-size: 30px;
+    justify-content: left;
+}
+.vosem h2{
+    font-size: 30px;
+}
+
+.vosem_inner{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.price1 {
+    justify-content: center;
+    font-size: 30px;
+}
+
+.new0 {
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.price1 span{
+    display: flex;
+}

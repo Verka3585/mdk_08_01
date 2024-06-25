@@ -1,0 +1,289 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-VariableFont.ttf);
+  font-style: normal;
+  display: swap;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+}
+body {
+  width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+  padding: 45px 115px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header div {
+  width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+ul,
+li {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header div h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+header div li {
+  font-size: 20px;
+  font-weight: 500;
+}
+li img {
+  width: 19px;
+  height: 18px;
+}
+main {
+  width: 1400px;
+}
+.header {
+  background: url("img/header.jpg") center/cover;
+  height: 100%;
+  padding: 180px 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.header_text {
+  text-align: center;
+  color: white;
+}
+.header_text h2 {
+  font-size: 60px;
+}
+.header_text p {
+  font-size: 22px;
+}
+.header_buttons {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.button1,
+.button2 {
+  cursor: pointer;
+  padding: 22px;
+  align-content: center;
+}
+.button1 p,
+.button2 p {
+  font-size: 20px;
+  color: white;
+}
+.button1 {
+  border: 3px white solid;
+}
+.button2 {
+  background: #00897b;
+}
+.about {
+  padding: 125px 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+.about_text {
+  text-align: center;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about_text h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.about_text p {
+  font-size: 15px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+}
+.item img {
+  width: 70px;
+  height: 70px;
+}
+.item h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.item p {
+  font-size: 15px;
+}
+.services {
+  padding: 125px 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  background: #e4fdf9;
+}
+.services_text {
+  text-align: center;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.services_text h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.services_text p {
+  font-size: 15px;
+}
+.wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.item2 {
+  width: 370px;
+  height: auto;
+  display: flex;
+  padding: 40px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  justify-content: space-between;
+  text-align: center;
+  background: #fff;
+}
+.item2 img {
+  width: 70px;
+  height: 70px;
+}
+.item2 h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.item2 p {
+  width: 90%;
+  font-size: 15px;
+}
+.item2 .button1 {
+  border: #000 3px solid;
+}
+.item2 .button1 p {
+  color: #000;
+  width: 100%;
+}
+.item2:hover {
+  background: #00897b;
+  color: white;
+}
+
+.contact {
+  padding: 125px 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  background: url("img/contact.jpg") center/cover;
+  height: 100%;
+  color: #fff;
+}
+.contact_text {
+  text-align: center;
+  width: 630px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact_text h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.contact_text p {
+  font-size: 15px;
+}
+.wrapper3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.item3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+}
+.item3 img {
+  width: 70px;
+  height: 70px;
+  background: #3949ab;
+  padding: 15px;
+  border-radius: 100%;
+}
+.item3 h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.item3 p {
+  width: 90%;
+  font-size: 15px;
+}
+.wrapper4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form1 {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.form1 input {
+  width: 100%;
+  height: 84px;
+  color: #000;
+  padding-left: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+.form2 input {
+  width: 100%;
+  height: 320px;
+  color: #000;
+  padding-left: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+}
+.button3 {
+  margin-left: auto;
+  width: 220px;
+  height: 70px;
+  border-radius: 10px;
+  background: #fff;
+  color: #000;
+  text-align: center;
+  align-content: center;
+  font-weight: 700;
+  cursor: pointer;
+}
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}

@@ -1,0 +1,35 @@
+.grid{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 2fr) ;
+    grid-template-rows: repeat(3, 250px);
+}
+
+.kot1{
+    grid-row: span 2;
+    background: url(img/котик4.png);
+    background-size: cover;
+}
+.kot2{
+    background: url(img/котик3.png);
+    background-size: cover;
+}
+.kot3{
+    background: url(img/котик2.png);
+    background-size: cover;
+}
+.kot4{
+    background: url(img/котик1.png);
+    background-size: cover;
+}
+.kot5{
+    background: url(img/котик5.png);
+    background-size: cover;
+}
+.kot6{
+    grid-column: span 3 ;
+    align-items: center;
+}
+body {
+    background: rgb(134, 108, 134);
+}

@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 1300px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+  border: 3px black solid;
+}
+.watch1 img {
+  height: 100%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  background: rgb(241, 232, 219);
+}
+.info h1 {
+  color: cadetblue;
+}
+.text {
+  width: 50%;
+}
+.watch img {
+  width: 30px;
+}

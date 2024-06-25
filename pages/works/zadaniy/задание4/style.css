@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+article img {
+    width: 100%;
+}
+article {
+    background: rgb(228, 135, 231);
+    width: 200px;
+    padding: 10px;
+}
+section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.snickers article {
+    padding: 10px;
+}
+.snickersarticle h3,
+.snickers article p {
+    padding: 0 10px;
+}
+section {
+    margin-top: 20px;
+}
+.blocks {
+    color: white;
+}
+.blocks article {
+    height: 400px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background: rgb(226, 208, 208);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+button {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    background: rgb(230, 162, 230);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(234, 139, 243);
+}
+.twix, .snickers, .baunti{
+    color: rgb(226, 209, 209);
+}
+h3{
+    color: rgb(2, 1, 1);
+}
+.n1 li{
+    border: 1px solid black;
+    color: azure;
+    width: 200px;
+    margin-bottom: 5px;
+    background-color: rgb(133, 57, 168);
+    padding: 10px;
+}
+.n1 li:hover{
+    background-color: rgb(241, 243, 243);
+    color: rgb(79, 185, 235);
+
+}

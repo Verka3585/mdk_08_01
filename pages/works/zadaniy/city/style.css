@@ -1,0 +1,45 @@
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+p, div{
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: violet;
+}
+li{
+    padding: 10px;
+}
+img{
+    width: 450px;
+    height: 300px;
+    border: 10px inset rgb(240, 144, 144);
+}
+div{
+    text-align: center;
+}
+.perm{
+    font-size: 1,5em;
+    margin-right: 2px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: -1px -1px 1px white, 1px 1px 1px whitesmoke;
+}
+
+h2{
+    text-align: center;
+    font-size: 2em;
+    margin-right: 2px;
+    color: rgb(230, 203, 203);
+    font-weight: bold;
+    text-shadow: -1px -1px 1px rgb(0, 0, 0), 1px 1px 1px whitesmoke ;
+}
+body{
+    background:rgb(231, 58, 231);
+}
