@@ -1,0 +1,72 @@
+.prew{
+    width: 200px;
+    height: 100px;
+}
+.ind{
+    width: 400px;
+    height: 300px;
+}
+.capy1{
+    background: url(../img/капи1.jpg);
+    background-size: cover;
+}
+.cheskit{
+    background: url(../img/ческыт.png);
+    background-size: cover;
+}
+.mol{
+    background: url(../img/молодец.jpg);
+    background-size: cover;
+}
+.i{
+    background: url(../img/я.jpg);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+}
+body{
+    background: rgb(250, 179, 250);
+}
+*{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    font-size: 24px;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+p, div{
+    font-size: 16px;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: violet;
+}
+li{
+    padding: 10px;
+}
+.new1{
+    background: url(../img/капи.jpg);
+    background-size: cover;
+}
+.new2{
+    background: url(../img/ческыт2.jpg);
+    background-size: cover;
+}
+.new3{
+    background: url(../img/корпус.jpg);
+    background-size: cover;
+}
+.capy3{
+    background: url(../img/капи4.jpg);
+    width: 800px;
+    height: 500px;
+    background-size: cover;
+}
